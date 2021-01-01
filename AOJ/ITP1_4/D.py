@@ -1,0 +1,6 @@
+n = int(input())
+_arr = list(map(int, input().split()))
+_min = min(_arr)
+_sum = sum(_arr)
+_max = max(_arr)
+print(f'{_min} {_max} {_sum}')
